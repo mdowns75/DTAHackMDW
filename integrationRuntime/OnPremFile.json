@@ -1,0 +1,6 @@
+{
+	"name": "OnPremFile",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
