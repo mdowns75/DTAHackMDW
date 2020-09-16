@@ -1,0 +1,24 @@
+{
+	"name": "SourceDataset_4q6",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "sqlonprem",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"cw_table": {
+				"type": "String"
+			}
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": {
+				"value": "@dataset().cw_table",
+				"type": "Expression"
+			}
+		}
+	}
+}
