@@ -1,0 +1,23 @@
+{
+	"name": "OnPremFile",
+	"properties": {
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "\\\\OHDataOnPremFil\\Rentals",
+			"userId": "southridge",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "team14keyvault",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "southridge"
+			}
+		},
+		"connectVia": {
+			"referenceName": "OnPremFile",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
