@@ -1,7 +1,0 @@
-{
-	"name": "FourthCoffeeOnPremFile",
-	"properties": {
-		"type": "SelfHosted",
-		"description": "IR to pull files"
-	}
-}
