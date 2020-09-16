@@ -1,0 +1,10 @@
+{
+	"name": "team14keyvault",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://team14keyvault.vault.azure.net/"
+		}
+	}
+}
